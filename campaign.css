@@ -1,0 +1,448 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora&display=swap");
+@import "main.css";
+
+
+:root {
+    --red: #DC3D36 ;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.2s linear;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 5rem;
+    scroll-behavior: smooth;
+}
+header {
+    top: 0; left: 0; right: 0;
+    width: 100%;
+    
+}
+.top{
+    background-color: #DBDBDB;
+    border-bottom: 1px solid #c3c3c3;
+    padding-block: 0.875rem;
+
+}
+.top1{
+    max-width: 1320px;
+    margin-inline: auto;
+    padding-inline: .75rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left a{
+    margin-right: 2rem;
+    text-decoration: none;
+    color: #333;
+    font-size: 1.3rem;
+    font-weight: 500;
+    
+}
+
+.news{
+    color: black;
+    font-size: 15px;
+    font-weight: 300;
+}
+.para, .dil {
+    font-size: 1.3rem;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    color: var(--pink);
+    background-color: transparent;
+}
+
+header .left a:hover,
+header .left a.active {
+    color: var(--red);
+    text-decoration: none;
+}
+
+.para:hover, .dil:hover {
+    color: var(--red);
+}
+header .mid {
+    width: 100%;
+    height: 9rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 0 12rem;
+    border-bottom: 0.2px solid #ffffff;
+
+}
+
+header .mid .logo {
+    font-size: 35px;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header .mid .search {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    overflow: hidden;
+    
+}
+
+header .icons {
+    display: flex;
+    gap: 0.8rem;
+}
+
+header .icons a {
+    width: 1.2rem;
+    position: relative;
+    font-size: 25px;
+    color: #333;
+    margin-left: 10px;
+
+}
+
+header .icons a:hover {
+    color: var(--red);
+}
+
+header .bottom {
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 12rem;
+    border-bottom: 0.5px solid #DBDBDB;
+    background-color:#DBDBDB;
+    
+}
+
+header .navbar {
+    top: 13px;
+
+}
+
+header .bottom .navbar a{
+    font-size: 18px;
+    color: #ffffff;
+    padding: 0 2rem;
+    text-decoration: none;
+}
+
+header .navbar a:hover{
+    color: var(--red);
+}
+
+header .search{
+    border-color: var(--red);
+    width: 45rem;
+}
+input,
+header .mid .search .category,
+textarea {
+    outline: none;
+    background-color: transparent;
+    border: 0.1px solid white;
+    color: var(--red);
+    padding: 1rem 1.2rem;
+    font-size: 1.5rem;
+}
+
+header .mid .search .btn {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: var(--red);
+    border: 0.5px solid var(--red);
+    padding: 1rem 1.2rem;
+    font-size: 1.5rem;
+    
+}
+
+header .bottom #toggler{
+    display: none;
+}
+
+header .fa-bars{
+    font-size: 3rem;
+    color: #333;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    cursor: pointer;
+    border: .1rem solid rgba(0, 0, 0, .3);
+    display: none;
+}
+
+.buton{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background: #333;
+    color: #fff;
+    padding: .9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+    margin: 4px 2px;
+    text-decoration: none;
+}
+.buton:hover{
+    background: var(--red);
+    color: #fff;
+    text-decoration: none;
+}
+
+/*campaign*/
+.campaign-box{
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+    margin-top: 0rem;
+    background-image: url(image/anthony-choren-XkEvCISUHPM-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.campaign-box .campaign{
+    max-width: 50rem;
+}
+.campaign-box .campaign h3{
+    font-size: 6rem;
+    color: #333;
+}
+.campaign-box .campaign h2{
+    font-size: 4rem;
+    color: #333;
+}
+.campaign-box .campaign p{
+    font-size: 1.5rem;
+    color: #333;
+    padding: 1rem 0;
+    line-height: 1.5;
+
+}
+/*products*/
+.products h1 {
+    border-bottom: .1rem solid rgba(0, 0, 0, .1);
+    padding-bottom: 1rem;
+}
+section {
+    padding: 2rem 9%;
+    text-align: center;
+}
+
+.products .featured-pro {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.products .featured-pro .box {
+    flex: 1 1 30rem;
+    width: 25rem;
+    margin: 2rem 0;
+    position: relative;
+    overflow: hidden;
+    border: #999;
+    text-align: center;
+}
+
+.products .featured-pro .box:hover {
+    border: 1rem solid #E7D6CD;
+}
+
+.products .featured-pro .box .device {
+    position: relative;
+    overflow: hidden;
+    padding: 1rem;
+
+}
+
+.products .featured-pro .box:hover .device {
+    transform: scale(1.1);
+}
+
+.products .featured-pro .box .device img {
+    height: 25rem;
+}
+
+.products.featured-pro .box .ikon {
+    border-bottom: 1rem solid #E7D6CD;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    z-index: 1;
+    transform: translateY(-100%);
+}
+
+.products .featured-pro .box:hover .ikon {
+    transform: translateY(0%);
+}
+
+.products .featured-pro .box .ikon a {
+    color: #333;
+    font-size: 2rem;
+    padding: 1.3rem 1.5rem;
+    text-decoration: none;
+}
+
+.products .featured-pro .box .ikon a:hover {
+    background: var(--red);
+    color: #fff;
+}
+
+.products .featured-pro .box .content {
+    background: #eee;
+    padding: 1.5rem;
+}
+
+.products .featured-pro .box .content h3 {
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.products .featured-pro .box .content .price {
+    font-size: 1.8rem;
+    color: #333;
+    padding-top: 1rem;
+}
+
+.products .featured-pro .box .content .price span {
+    font-size: 1.5rem;
+    color: #c3c3c3;
+    text-decoration: line-through;
+}
+
+
+/*footer*/
+.icons-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.icons-container .icons{
+    display: flex;
+    align-items: center;
+    padding: 2rem 0;
+    cursor: pointer;
+}
+.icons-container .icons i{
+    font-size: 3rem;
+    padding-right: 2rem;
+    color: var(--red);
+}
+.icons-container .icons h3{
+    font-size: 1.7rem;
+    color: #333;
+    padding-bottom: .2rem;
+}
+.icons-container .icons p{
+    font-size: 1.3rem;
+    color: #999;
+}
+.newsletter form{
+    max-width: 45rem;
+    margin-left: auto;
+    padding: 5rem 0;
+
+}
+.newsletter form h3{
+    font-size: 1.7rem;
+    color: #333;
+    padding-bottom: .7rem;
+    font-weight: normal;
+}
+.newsletter form .box{
+    width: 100%;
+    margin: .7rem 0;
+    padding:1rem 1.2rem;
+    font-size: 1rem;
+    color: var(--red);
+    border-color: var(--red);
+    border-radius: .5rem;
+    text-transform: none;
+}
+.footer .box-footer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.footer .box-footer .container{
+    flex:1 1 25rem;
+}
+
+.footer .box-footer .container h3{
+    font-size: 2.2rem;
+    color: #444;
+    padding: 1rem 0;  
+}
+
+.footer .box-footer .container a{
+    display: block;
+    font-size: 1.4rem;
+    color: #666;
+    padding: 1rem 0;  
+    text-decoration: none;
+}
+.footer .box-footer .container a:hover{
+    color: var(--red);
+    text-decoration: none;
+}
+.footer .box-footer .container a:hover i{
+    padding-right: 2rem;
+}
+.footer .box-footer .container a i{
+    color: #E7D6CD;
+    padding-right: .5rem
+}
+
+.footer .box-footer .container .map{
+    width: 100%;
+}
+
+.footer .sociallinks{
+    padding: 1rem 0;
+    text-align: center;
+}
+.footer .sociallinks a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color: #fff;
+    background: var(--red);
+    margin: 0 .3rem;
+    border-radius: 50%;
+    text-decoration: none;
+}
+.footer .sociallinks a:hover{
+    background:#333;
+    text-decoration: none;
+}
+
+.footer .copy{
+    border-top: 0.5rem solid rgba(0, 0, 0, .1);
+    margin-top: 2rem;
+    padding: 0 1rem;
+    padding-top: 2.5rem;
+    font-size: 1.4rem;
+    color: #333;
+    text-align: center;
+}
+.footer .copy span{
+    color: var(--red);
+}
+

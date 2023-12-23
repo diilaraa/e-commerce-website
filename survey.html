@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="survey.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <title>TechHub</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="top">
+            <div class="top1">
+                <div class="left">
+                    <a href="#">Track Order</a>
+                    <a href="#">Support</a>
+                </div>
+
+                <p class="news">Free Shipping-Order Over - 100$</p>
+
+                <div class="right">
+                    <select class="para" name="parabirimi">
+
+                        <option value="usd">USD &dollar;</option>
+                        <option value="eur">EUR &euro;</option>
+                        <option value="tl">TL</option>
+
+                    </select>
+
+                    <select class="dil" name="dil">
+
+                        <option value="en-US">English</option>
+                        <option value="Tr">Türkçe</option>
+
+                        <option value="es-ES">Espa&ntilde;ol</option>
+                        <option value="de">Deutsch</option>
+
+                    </select>
+                </div>
+                <div class="time">
+                    <p id="watch"></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="mid">
+
+            <a href="#" class="logo">TechHub</a>
+
+            <form action="" class="search-form">
+                <input type="search" name="" placeholder="search here..." id="search-box">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+
+            <div class="icons">
+                <a href="#">
+                    <span class="glyphicon glyphicon-heart-empty"></span>
+                </a>
+                <a href="#">
+                    <span class="glyphicon glyphicon-user"></span>
+                </a>
+                <a href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a>
+            </div>
+
+        </div>
+
+        <div class="bottom">
+
+            <nav class="navbar">
+                <a href="home.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="products.html">Products</a>
+                <a href="campaign.html">Campaign</a>
+                <a href="contact.html">Contact</a>
+                <a href="survey.html">Challenge</a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <section class="survey-box">
+
+        <div class="survey">
+            <h3>Tech Knowledge Challenge</h3>
+            <h2>unlock a special gift - a coupon for your next purchase!</h2>
+            <p>Dear Valued Customer, we're thrilled to invite you to our Tech Knowledge Challenge! Test your expertise on technological devices and we want to show our appreciation for your
+                time and insights.</p>
+            <p>Participate and Receive a Special Gift!</p>
+        </div>
+
+    </section>
+
+    <section id="questions">
+        <div style="background-color:#fff" class=" py-3">
+            <div class="anket">
+
+
+                <div class="row">
+                    <div style="background-color:#fff;" class="col-7">
+
+                        <form style="color:#333;" class="question-form ">
+                            <div class="anket-soru">
+                                <p>What type of device is a Fitbit?</p>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="q1" value="E">
+                                    <label class="form-check-label">
+                                        Fitness Tracker
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="q1" value="H">
+                                    <label class="form-check-label">
+                                        Smartwatch
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="q1" value="H">
+                                    <label class="form-check-label">
+                                        Smartphone
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="q1" value="H">
+                                    <label class="form-check-label">
+                                        Tablet
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="anket-soru">
+                                <p>Which company produces the PlayStation gaming console?</p>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="q2" value="H">
+                                    <label class="form-check-label">
+                                        Microsoft
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="q2" value="E">
+                                    <label class="form-check-label">
+                                        Sony
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="q2" value="H">
+                                    <label class="form-check-label">
+                                        Nintendo
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="q2" value="H">
+                                    <label class="form-check-label">
+                                        Sega
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="anket-soru">
+                                <p>What is the main purpose of a router in a home network setup?</p>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="q3" value="H">
+                                    <label class="form-check-label">
+                                        Print documents
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="q3" value="E">
+                                    <label class="form-check-label">
+                                        Connect devices to the internet
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="q3" value="H">
+                                    <label class="form-check-label">
+                                        Charge Electronic devices
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="q3" value="H">
+                                    <label class="form-check-label">
+                                        Play video games
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="anket-soru">
+                                <p> What type of device is a Raspberry Pi?</p>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="q4" value="H">
+                                    <label class="form-check-label">
+                                        Gaming Console
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="q4" value="H">
+                                    <label class="form-check-label">
+                                        Smart home hub
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="q4" value="H">
+                                    <label class="form-check-label">
+                                        Digital Camera
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="q4" value="E">
+                                    <label class="form-check-label">
+                                        Single-board computer
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="anket-soru">
+                                <p>What does the term "IoT" stand for in the context of technology?</p>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="q5" value="H">
+                                    <label class="form-check-label">
+                                        Input-Output Technology
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="q5" value="H">
+                                    <label class="form-check-label">
+                                        Integrated Online Tools
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="q5" value="H">
+                                    <label class="form-check-label">
+                                        Intelligent Object Tracking
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="q5" value="E">
+                                    <label class="form-check-label">
+                                        Internet of Things
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="gönder">
+                                <input type="submit" class="buton">
+                            </div>
+                    </div>
+
+                    </form>
+
+                    <div style="background-image: url(indir\ \(4\).jpg);" class="col-5">
+                        <div style="background-color:black; color:red" class="skor-box d-none  result  text-center">
+                            <div class="skor ">
+                                <p><span
+                                        class="display-3 d-flex justify-content-center align-items-center flex-wrap"></span><span>
+                                        <h1>SKORUNUZ<h1>
+                                    </span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="icons-container">
+        <div class="icons">
+            <i class="fas fa-lock"></i>
+            <div class="cont">
+                <h3>secure payment</h3>
+                <p>protected by paypa</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-redo-alt"></i>
+            <div class="cont">
+                <h3>easy returns</h3>
+                <p>10 days returns</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-headset"></i>
+            <div class="cont">
+                <h3>24/7 support</h3>
+                <p>call us anytime</p>
+            </div>
+        </div>
+        <div class="icons">
+            <i class="fas fa-plane"></i>
+            <div class="cont">
+                <h3>free delivery</h3>
+                <p>order over 100$</p>
+            </div>
+        </div>
+        <div class="newsletter">
+            <form action="">
+                <h3>subscribe for latest updates</h3>
+                <input class="box" type="email" placeholder="TechHub@example.com">
+                <input type="submit" value="subscribe" class="buton">
+            </form>
+        </div>
+    </section>
+
+    <section class="footer">
+
+        <div class="box-footer">
+            <div class="container">
+                <h3>our locations</h3>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Turkey </a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Germany </a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> USA </a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Russia </a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> France </a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Africa </a>
+            </div>
+
+            <div class="container">
+                <h3>quick links</h3>
+                <a href="#"><i class="fas fa-arrow-right"></i> home </a>
+                <a href="#"><i class="fas fa-arrow-right"></i> about </a>
+                <a href="#"><i class="fas fa-arrow-right"></i> products </a>
+                <a href="#"><i class="fas fa-arrow-right"></i> contact </a>
+            </div>
+
+            <div class="container">
+                <h3>extra links</h3>
+                <a href="#"><i class="fas fa-arrow-right"></i> my account </a>
+                <a href="#"><i class="fas fa-arrow-right"></i> my favourite </a>
+                <a href="#"><i class="fas fa-arrow-right"></i> my order </a>
+                <a href="#"><i class="fas fa-arrow-right"></i> privacy policy </a>
+            </div>
+
+            <div class="container">
+                <h3>contact info</h3>
+                <a href="#"><i class="fas fa-phone"></i> +90 212 547 84 66 </a>
+                <a href="#"><i class="fas fa-phone"></i> +90 212 547 83 77</a>
+                <a href="#"><i class="fas fa-envelope"></i> techhub@gmail.com </a>
+                <img src="image/How To Make A Cool World Map Denim Floor Cushion.jpeg" class="map" alt="">
+            </div>
+        </div>
+        <div class="sociallinks">
+            <a href="#" class="fa fa-facebook-f"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-whatsapp"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+        </div>
+
+        <div class="copy"> created by <span> mrs. dilara top </span> | all rights reserved!</div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="survey.js"></script>
+</body>
+
+</html>
